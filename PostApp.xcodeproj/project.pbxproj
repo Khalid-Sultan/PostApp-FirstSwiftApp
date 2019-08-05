@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221CB99CDEF46BFA7E88190D /* libPods-PostApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CA7953A949F3AE6BD264B1 /* libPods-PostApp.a */; };
+		848623DB22DDEEC400966C81 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848623DA22DDEEC300966C81 /* ForgotPasswordViewController.swift */; };
+		84C99D2522F1BC7000E5A917 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2422F1BC7000E5A917 /* PostViewController.swift */; };
+		84C99D2722F1BC8F00E5A917 /* ViewPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2622F1BC8F00E5A917 /* ViewPostsViewController.swift */; };
+		84C99D2922F1BCAC00E5A917 /* AllUserPostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2822F1BCAC00E5A917 /* AllUserPostsCollectionViewCell.swift */; };
+		84C99D2B22F1BD9E00E5A917 /* Segueways.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2A22F1BD9E00E5A917 /* Segueways.swift */; };
+		84C99D2D22F1C1FD00E5A917 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2C22F1C1FD00E5A917 /* User.swift */; };
+		84C99D2F22F1C26E00E5A917 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D2E22F1C26E00E5A917 /* UIImageExtensions.swift */; };
+		84C99D3122F1C55000E5A917 /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D3022F1C55000E5A917 /* Alerts.swift */; };
+		84C99D3322F1C85300E5A917 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C99D3222F1C85300E5A917 /* Post.swift */; };
 		84CDDEC322DC9A5200C8A414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEC222DC9A5200C8A414 /* AppDelegate.swift */; };
-		84CDDEC522DC9A5200C8A414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEC422DC9A5200C8A414 /* ViewController.swift */; };
 		84CDDEC822DC9A5200C8A414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDDEC622DC9A5200C8A414 /* Main.storyboard */; };
 		84CDDECB22DC9A5200C8A414 /* PostApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEC922DC9A5200C8A414 /* PostApp.xcdatamodeld */; };
 		84CDDECD22DC9A6A00C8A414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDDECC22DC9A6A00C8A414 /* Assets.xcassets */; };
 		84CDDED022DC9A6A00C8A414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CDDECE22DC9A6A00C8A414 /* LaunchScreen.storyboard */; };
 		84CDDEDB22DC9A6A00C8A414 /* PostAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEDA22DC9A6A00C8A414 /* PostAppTests.swift */; };
 		84CDDEE622DC9A6A00C8A414 /* PostAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEE522DC9A6A00C8A414 /* PostAppUITests.swift */; };
+		84CDDEF822DC9CAC00C8A414 /* SignUpOrLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEF722DC9CAC00C8A414 /* SignUpOrLoginViewController.swift */; };
+		84CDDEFA22DC9D6000C8A414 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEF922DC9D6000C8A414 /* LoginViewController.swift */; };
+		84CDDEFC22DC9D7300C8A414 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEFB22DC9D7300C8A414 /* SignUpViewController.swift */; };
+		84CDDEFE22DC9DC400C8A414 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CDDEFD22DC9DC400C8A414 /* HomePageViewController.swift */; };
+		84CDDF0022DCB24C00C8A414 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84CDDEFF22DCB24C00C8A414 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07CA7953A949F3AE6BD264B1 /* libPods-PostApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PostApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F984599F9DDB95DC7769289 /* Pods-PostApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostApp.debug.xcconfig"; path = "Target Support Files/Pods-PostApp/Pods-PostApp.debug.xcconfig"; sourceTree = "<group>"; };
+		848623DA22DDEEC300966C81 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		84C99D2422F1BC7000E5A917 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		84C99D2622F1BC8F00E5A917 /* ViewPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostsViewController.swift; sourceTree = "<group>"; };
+		84C99D2822F1BCAC00E5A917 /* AllUserPostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUserPostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		84C99D2A22F1BD9E00E5A917 /* Segueways.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segueways.swift; sourceTree = "<group>"; };
+		84C99D2C22F1C1FD00E5A917 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		84C99D2E22F1C26E00E5A917 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		84C99D3022F1C55000E5A917 /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		84C99D3222F1C85300E5A917 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		84CDDEBF22DC9A5200C8A414 /* PostApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDDEC222DC9A5200C8A414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84CDDEC422DC9A5200C8A414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84CDDEC722DC9A5200C8A414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84CDDECA22DC9A5200C8A414 /* PostApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PostApp.xcdatamodel; sourceTree = "<group>"; };
 		84CDDECC22DC9A6A00C8A414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +73,12 @@
 		84CDDEE122DC9A6A00C8A414 /* PostAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CDDEE522DC9A6A00C8A414 /* PostAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostAppUITests.swift; sourceTree = "<group>"; };
 		84CDDEE722DC9A6A00C8A414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CDDEF722DC9CAC00C8A414 /* SignUpOrLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpOrLoginViewController.swift; sourceTree = "<group>"; };
+		84CDDEF922DC9D6000C8A414 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84CDDEFB22DC9D7300C8A414 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		84CDDEFD22DC9DC400C8A414 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		84CDDEFF22DCB24C00C8A414 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FDCB7F2D5419F7F73A159BBC /* Pods-PostApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PostApp.release.xcconfig"; path = "Target Support Files/Pods-PostApp/Pods-PostApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221CB99CDEF46BFA7E88190D /* libPods-PostApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +107,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7ADD7ED6CB4C2AB78ABB50 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F984599F9DDB95DC7769289 /* Pods-PostApp.debug.xcconfig */,
+				FDCB7F2D5419F7F73A159BBC /* Pods-PostApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		84CDDEB622DC9A5200C8A414 = {
 			isa = PBXGroup;
 			children = (
+				84CDDEF622DC9C6F00C8A414 /* ViewControllers */,
+				84CDDEF522DC9C5C00C8A414 /* Models */,
 				84CDDEC122DC9A5200C8A414 /* PostApp */,
 				84CDDED922DC9A6A00C8A414 /* PostAppTests */,
 				84CDDEE422DC9A6A00C8A414 /* PostAppUITests */,
 				84CDDEC022DC9A5200C8A414 /* Products */,
+				3A7ADD7ED6CB4C2AB78ABB50 /* Pods */,
+				C863FA6869EE282D622A226A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +143,8 @@
 		84CDDEC122DC9A5200C8A414 /* PostApp */ = {
 			isa = PBXGroup;
 			children = (
+				84CDDEFF22DCB24C00C8A414 /* GoogleService-Info.plist */,
 				84CDDEC222DC9A5200C8A414 /* AppDelegate.swift */,
-				84CDDEC422DC9A5200C8A414 /* ViewController.swift */,
 				84CDDEC622DC9A5200C8A414 /* Main.storyboard */,
 				84CDDECC22DC9A6A00C8A414 /* Assets.xcassets */,
 				84CDDECE22DC9A6A00C8A414 /* LaunchScreen.storyboard */,
@@ -128,6 +172,41 @@
 			path = PostAppUITests;
 			sourceTree = "<group>";
 		};
+		84CDDEF522DC9C5C00C8A414 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84C99D2A22F1BD9E00E5A917 /* Segueways.swift */,
+				84C99D2C22F1C1FD00E5A917 /* User.swift */,
+				84C99D2E22F1C26E00E5A917 /* UIImageExtensions.swift */,
+				84C99D3022F1C55000E5A917 /* Alerts.swift */,
+				84C99D3222F1C85300E5A917 /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84CDDEF622DC9C6F00C8A414 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84CDDEF722DC9CAC00C8A414 /* SignUpOrLoginViewController.swift */,
+				84CDDEF922DC9D6000C8A414 /* LoginViewController.swift */,
+				84CDDEFB22DC9D7300C8A414 /* SignUpViewController.swift */,
+				84CDDEFD22DC9DC400C8A414 /* HomePageViewController.swift */,
+				848623DA22DDEEC300966C81 /* ForgotPasswordViewController.swift */,
+				84C99D2422F1BC7000E5A917 /* PostViewController.swift */,
+				84C99D2622F1BC8F00E5A917 /* ViewPostsViewController.swift */,
+				84C99D2822F1BCAC00E5A917 /* AllUserPostsCollectionViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C863FA6869EE282D622A226A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07CA7953A949F3AE6BD264B1 /* libPods-PostApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84CDDEEA22DC9A6A00C8A414 /* Build configuration list for PBXNativeTarget "PostApp" */;
 			buildPhases = (
+				B392198D485FCF32AE9E09E9 /* [CP] Check Pods Manifest.lock */,
 				84CDDEBB22DC9A5200C8A414 /* Sources */,
 				84CDDEBC22DC9A5200C8A414 /* Frameworks */,
 				84CDDEBD22DC9A5200C8A414 /* Resources */,
@@ -233,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84CDDED022DC9A6A00C8A414 /* LaunchScreen.storyboard in Resources */,
+				84CDDF0022DCB24C00C8A414 /* GoogleService-Info.plist in Resources */,
 				84CDDECD22DC9A6A00C8A414 /* Assets.xcassets in Resources */,
 				84CDDEC822DC9A5200C8A414 /* Main.storyboard in Resources */,
 			);
@@ -254,13 +335,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B392198D485FCF32AE9E09E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PostApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84CDDEBB22DC9A5200C8A414 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C99D2522F1BC7000E5A917 /* PostViewController.swift in Sources */,
+				84C99D2B22F1BD9E00E5A917 /* Segueways.swift in Sources */,
+				84CDDEFC22DC9D7300C8A414 /* SignUpViewController.swift in Sources */,
+				848623DB22DDEEC400966C81 /* ForgotPasswordViewController.swift in Sources */,
+				84C99D2922F1BCAC00E5A917 /* AllUserPostsCollectionViewCell.swift in Sources */,
+				84C99D2F22F1C26E00E5A917 /* UIImageExtensions.swift in Sources */,
+				84C99D2722F1BC8F00E5A917 /* ViewPostsViewController.swift in Sources */,
+				84CDDEFE22DC9DC400C8A414 /* HomePageViewController.swift in Sources */,
 				84CDDECB22DC9A5200C8A414 /* PostApp.xcdatamodeld in Sources */,
-				84CDDEC522DC9A5200C8A414 /* ViewController.swift in Sources */,
+				84C99D3322F1C85300E5A917 /* Post.swift in Sources */,
+				84C99D2D22F1C1FD00E5A917 /* User.swift in Sources */,
+				84CDDEF822DC9CAC00C8A414 /* SignUpOrLoginViewController.swift in Sources */,
+				84CDDEFA22DC9D6000C8A414 /* LoginViewController.swift in Sources */,
+				84C99D3122F1C55000E5A917 /* Alerts.swift in Sources */,
 				84CDDEC322DC9A5200C8A414 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +552,7 @@
 		};
 		84CDDEEB22DC9A6A00C8A414 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F984599F9DDB95DC7769289 /* Pods-PostApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +570,7 @@
 		};
 		84CDDEEC22DC9A6A00C8A414 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCB7F2D5419F7F73A159BBC /* Pods-PostApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,12 @@
+target 'PostApp' do
+platform :ios, '10.14.1'
+
+pod 'Firebase'
+pod 'Firebase/Core'
+pod 'Firebase/Database'
+pod 'Firebase/Auth'
+pod 'Firebase/Analytics'
+pod 'Firebase/Storage'
+
+
+end
